@@ -1,9 +1,9 @@
 class Solution {
     public int solution(int n) {
         int answer=0;
-        StringBuilder sb=new StringBuilder(n+"");
-        for (int i=0; i<sb.length(); i++){
-            answer+=Integer.parseInt(sb.charAt(i)+"");
+        String str=String.valueOf(n);
+        for (int i=0; i<str.length(); i++){
+            answer+=Integer.parseInt(String.valueOf(str.charAt(i)));
         }
         return answer;
     }
