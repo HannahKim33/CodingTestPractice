@@ -8,6 +8,7 @@ class Solution {
                 }else{
                     answer="wrong pw";
                 }
+                break;
             }
         }
         if(answer.equals("")){
